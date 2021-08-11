@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Formulário</title>
+	</head>
+	<body>
+		<h1> Formulário </h1>
+		<form action="/lista02.html">
+			<fieldset>
+				<legend> Dados pessoais</legend>
+				<label for="nome">Nome:</label>
+				<input type="text"
+				       id="nome"
+				       name="nome"
+				       maxlength="50">
+					<br>
+						<label for="endereco">Endereço:</label>
+						<input type="text"
+						       id="endereco"
+						       name="endereco"
+						       maxlength="70">
+							<br>
+								<label for="cidade">Cidade:</label>
+								<input type="text"
+								       id="cidade"
+								       name="cidade"
+								       maxlength="25">
+</fieldset>
+								<br>
+									<fieldset>
+										<legend>Dados profissionais</legend>
+										<label for="natureza">Natureza do Cargo</label>
+										<br>
+											<input type="radio"
+											       name="natureza"
+											       id="gerencia">
+												<label for="gerencia">Gerência</label>
+												<input type="radio"
+												       name="natureza"
+												       id="financeiro">
+													<label for="financeiro">Financeiro</label>
+													<input type="radio"
+													       name="natureza"
+													       id="recepcao">
+														<label for="gerencia">Recepção</label>
+														<input type="radio"
+														       name="natureza"
+														       id="admin">
+															<label for="gerencia">Administrativo</label>
+															<input type="radio"
+															       name="natureza"
+															       id="juridico">
+																<label for="gerencia">Jurídico</label>
+																<br>
+																	<br>
+																		<label for="interesse">Área de interesse</label>
+																		<br>
+																			<input type="checkbox"
+																			       name="computacao"
+																			       id="computacao"
+																			       value="computacao">
+																				<label for="computacao">Computação</label>
+																				<input type="checkbox"
+																				       name="biologia"
+																				       id="biologia"
+																				       value="biologia">
+																					<label for="biologia">Biologia</label>
+																					<input type="checkbox"
+																					       name="meio-ambiente"
+																					       id="meio-ambiente"
+																					       value="meio-ambiente">
+																						<label for="meio-ambiente">Meio Ambiente</label>
+																						<input type="checkbox"
+																						       name="engenharia"
+																						       id="engenharia"
+																						       value="engenharia">
+																							<label for="engenharia">Engenharia</label>
+																							<input type="checkbox"
+																							       name="historia"
+																							       id="historia"
+																							       value="historia">
+																								<label for="historia">História</label>
+																								<br>
+																									<br>
+																										<label for="mini-curriculo">Mini-currículo:</label>
+																										<textarea id="mini-curriculo"
+																										          name="mini-curriculo"
+																										          rows="4"
+																										          cols="50"> </textarea>
+																									</fieldset>
+																									<br>
+																										<input type="submit"
+																										       name="enviar"
+																										       id="enviar"
+																										       value="Enviar">
+																											<input type="submit"
+																											       name="limpar"
+																											       id="limpar"
+																											       value="Limpar">
+</form>
+																										</body>
+																									</html>

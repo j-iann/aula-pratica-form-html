@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title>Órgão Colegiado</title>
+</head>
+<body>
+<form action="/lista03.html">
+<fieldset>
+<legend> Órgão Colegiado </legend>
+
+<label for="nome"><b>Nome</b></label>
+<input type="text" name="nome" id="nome" value="CONGREGAÇÃO DA FACULDADE DE ILHA SOLTEIRA" size="50"> <br>
+<label for="sigla"><b>Sigla</b></label>
+<input type="text" name="sigla" id="sigla" value="CFIS" size="5">
+<p style="float:right;"> 
+<label for="status"><b>Status</b></label>
+<select name="status" id="status">
+<option value="ativado">ATIVADO</option>
+<option value="desativado">DESATIVADO</option>
+</select> 	
+</p>
+<br>
+<label for="data"><b>Data Ativação</b></label>
+<input type="date" name="data" id="data" value="2000-10-15">
+<p style="float:right;">
+<label for="data-des"><b>Data Desativação</b></label>
+<input type="date" name="data-des" id="data-des"> <br>
+</p>
+<br>
+<label for="orgao-orig"><b>Órgão de Origem</b></label>
+<input type="text" name="orgao-orig" id="orgao-orig">
+<input type="submit" name="buscar1" id="buscar1" value="Buscar"> <br>
+<label for="orgao-sup"><b>Órgão Superior</b></label>
+<input type="text" name="orgao-sup" id="orgao-sup">
+<input type="submit" name="buscar2" id="buscar2" value="Buscar"> <br>
+<label for="documentacao"><b>Documentação</b></label>
+<textarea name="documentacao" id="documentacao" rows="3" cols="50">Órgão criado com o objetivo de aprovar normas da unidade.</textarea> <br>
+<p style="margin-left:200px"> <input type="submit" name="salvar" id="salvar" value="Salvar">
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <input type="submit" name="excluir" id="excluir" value="Excluir"
+</p>
+</fieldset>
+</form>
+</body>
+</html>
